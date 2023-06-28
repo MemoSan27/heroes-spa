@@ -1,4 +1,4 @@
-import { HeroList } from "../components/HeroList"
+import { HeroList } from "../components"
 
 export const DCPage = () => {
 
@@ -9,7 +9,7 @@ export const DCPage = () => {
         <h1>DC Comics</h1>
         <hr/>
 
-        <HeroList publisher={'DC Comics'}/>
+        <HeroList publisher='DC Comics'/>
 
       </>
     )
